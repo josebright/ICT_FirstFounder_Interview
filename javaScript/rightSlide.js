@@ -14,7 +14,7 @@ function control(){
 
         bar.style.visibility = "hidden";
         aside.style.width = "25%";
-        direction.style.right = "20rem";
+        direction.style.right = "25%";
         main.style.width = "75%";
         sideh.style.fontSize = "3.5vmax";
         sidep.style.fontSize = "1.5vmax";
