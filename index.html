@@ -30,21 +30,21 @@
         </div>
 
         <div class="dynamic">
-        <div class="direction" id="move">
-          &lt;
-        </div>
+        <label class="direction" for="move">
+          <input type="checkbox" id="move" style="cursor: pointer;" />
+        </label>
         <div class="bar"> 
         </div>
         <div class="aside">
           <div class="style clearfix"><img src="images/style.png" alt="style"></div>
-          <div style="margin: 15%;">
+          <div style="margin: 3vmax;">
             <div class="inner-logo"><img src="images/logo.png" alt="logo"></div>
             <p style="text-align: center; font-size: 1vmax;">Select cake and get it delivered <br/> to your door step</p>
             <div class="horizon">
               <hr style="width: 40%; height: 0.5px; "><img src="images/rose.png" alt=""><hr style="width: 40%; height: 0.5px;">
             </div>
             <h3 style="font-size: 1vmax; margin-bottom: 5%;">Basket items</h3>
-            <div id="cart"><p style="font-size: 1vmax; margin-bottom: 8%;">No Item added yet</p></div>
+            <div><p id="cart" style="font-size: 1vmax; margin-bottom: 8%;">No Item added yet</p></div>
             <hr style="opacity: 0.3;">
             <div>
               <form action="#" target="blank" method="GET">
@@ -74,11 +74,8 @@
       </div>
 
       <div class="wrap">
-        <img src="images/1.jpg" alt="cake">
         <div class="slide">
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <img src="images/1.jpg" alt="cake">
         </div>
         <div class="side">
           <h1>Bam-Bam Lala Special Offer</h1> <br/>
@@ -91,11 +88,11 @@
     <div class="content-one">
       <h2>Creamy Cakes</h2>
       <p style="text-align: center;"><img src="images/arrow.png" alt="design"></p>
-      <section class="grid clearfix">
+      <section class="grid">
         <div class="box">
           <div class="roll">
             <img src="images/n5.jpg" alt="Cake">
-            <p> Order cake</p>
+            <p onclick="displayOrder()"> Order cake</p>
           </div>
           <p style="margin-top:5px;">Vanilla flavour ginger cake</p>
           <p style="margin-top:5px; color: gray; opacity: 0.5;"><a href="#">Category</a></p>
@@ -158,7 +155,7 @@
         </div>
         <div class="box">
           <div class="roll">
-            <img src="images/n8.jpg" alt="Cake">
+            <img src="images/n5.jpg" alt="Cake">
             <p>Order cake</p>
           </div>
           <p style="margin-top:5px;">Vanilla flavour ginger cake</p>
@@ -222,6 +219,7 @@
         </div>
       </section>
     </div>
+    <div class="clearfix"></div>
 
     <div class="content-two">
       <h2>Specials</h2>
